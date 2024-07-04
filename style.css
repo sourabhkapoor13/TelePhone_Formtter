@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+input{
+    
+    font-size: 1.5rem;
+}
+nav {
+    overflow: hidden;
+    border-bottom: 1px solid #330c0c; /* Adding a border instead of background color */
+  }
+  nav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  nav a:hover {
+    background-color: #f0f0f0; /* Hover color */
+  }
+  nav img {
+    float: right;
+    padding: 10px;
+    height: 20px; /* Adjust height as needed */
+  }
+.unique{
+  margin-top: 30px;
+}
